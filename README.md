@@ -11,9 +11,9 @@ graph LR;
 
 ```mermaid
 graph LR;
-  jtier.cli-.uses.->jtier.core;
-  jtier.cli-.uses.->jtier.base;
-  jtier.core-.uses.->jtier.base;
+  jtier.cli-.requires.->jtier.core;
+  jtier.cli-.requires.->jtier.base;
+  jtier.core-.requires.->jtier.base;
 ```
 
 ## Compile

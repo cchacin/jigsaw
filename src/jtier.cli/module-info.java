@@ -1,3 +1,3 @@
 module jtier.cli {
-    requires jtier.core;
+    // requires jtier.core;
 }
